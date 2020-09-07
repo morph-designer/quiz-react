@@ -26,7 +26,7 @@ class Quiz extends Component {
         window.clearTimeout(timeout);
       }, 1000);
 
-      // Если ответ правильный
+      // Если ответ неправильный
     } else {
       console.log("неверно");
     }
